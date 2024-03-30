@@ -1,0 +1,32 @@
+@media (width > 600px){
+  .container{
+    grid-template-columns: 1fr 1fr;
+    max-width: 588px;
+  }
+  main{
+    padding-bottom:unset;
+    padding-inline: 2rem;
+  }
+  .banner-img{
+    display: none;
+  }
+  header{
+    display: flex;
+
+  }
+  .banner-img2{
+    display: block;
+    object-fit: cover;
+    height: 100%;
+  }
+  .main-perfume{
+    margin-top: .5rem;
+    margin-bottom: .8rem;
+  }
+  .main-transact{
+    margin-block: 1.5rem;
+  }
+  .main-add{
+    margin-bottom: 2rem;
+  }
+}
